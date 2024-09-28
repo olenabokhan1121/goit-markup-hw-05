@@ -481,29 +481,27 @@
             </li>
           </ul>
         </div>
-        <form class="third-footer">
-          <label class="footer-social-text" for="input-email">Subscribe</label>
-          <div class="input-wrapper-footer">
-            <input
-              class="subscribe-form-input"
-              id="input-email"
-              type="email"
-              name="user-subscribe-email"
-              placeholder="E-mail"
-            />
-            <div class="container-subscribe-btn">
-              <button class="subscribe-form-submit" type="submit">
-                Subscribe
-                <svg class="send-icon" width="24" height="20">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </form>
+        <div class="container-third-footer">
+          <p class="footer-social-text">Subscribe</p>
+          <form class="third-footer">
+            <label class="input-wrapper-footer">
+              <input
+                class="subscribe-form-input"
+                type="email"
+                name="user-subscribe-email"
+                placeholder="E-mail"
+            /></label>
+            <button class="subscribe-form-submit" type="submit">
+              Subscribe
+              <svg class="send-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    -- Model Form --
+    -- Modal Form --
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
@@ -525,7 +523,7 @@
                 type="text"
                 required
               />
-              <svg class="review-form-input-icon" width="18" height="18">
+              <svg class="review-form-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -578,13 +576,13 @@
           <div class="review-form-checkbox-wrapper">
             <input
               class="review-form-checkbox visually-hidden"
-              id="privacy-policy"
+              id="user-privacy"
               type="checkbox"
-              name="privacy-policy"
+              name="user-privacy"
               value="true"
               required
             />
-            <label class="review-form-checkbox-label" for="privacy-policy">
+            <label class="review-form-checkbox-label" for="user-privacy">
               <span class="review-form-custom-checkbox">
                 <svg class="review-form-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
